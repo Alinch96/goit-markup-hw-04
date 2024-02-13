@@ -328,7 +328,7 @@ img {
 }
 
 .social-link-icon {
-  fill: #fff;
+  fill: #f4f4fd;
 }
 
 .social-link:hover,
@@ -411,7 +411,7 @@ img {
 
 .page-footer .container {
   display: flex;
-  justify-content: baseline;
+  align-items: baseline;
 }
 .page-footer {
   background-color: #2e2f42;
