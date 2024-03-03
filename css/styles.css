@@ -98,7 +98,7 @@ img {
     letter-spacing: 0.32px; */
 }
 
-.studio .navigation-list-link {
+.studio  {
   position: relative;
   color: #404bbf;
   transition-property: color;
@@ -115,7 +115,7 @@ img {
   text-decoration: underline;
 }
 
-.studio .navigation-list-link::after {
+.navigation-list-link.studio::after {
   content: '';
   position: absolute;
   left: 0;
@@ -146,6 +146,7 @@ img {
 }
 
 /* First section */
+
 
 .first-section {
   max-width: 1440px;
@@ -191,8 +192,9 @@ img {
   min-width: 169px;
   height: 56px;
   display: block;
-  margin-left: 480px;
-  margin-right: 479px;
+  /* margin-left: 480px;
+  margin-right: 479px; */
+  margin-inline: auto;
   transition-property: background-color;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
@@ -216,6 +218,7 @@ img {
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
   overflow: hidden;
+  display: none;
 }
 
 .second-section {
@@ -449,3 +452,4 @@ img {
   font-weight: 500;
   margin-bottom: 16px;
 }
+
